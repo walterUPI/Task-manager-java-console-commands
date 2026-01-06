@@ -35,7 +35,7 @@ public class JavaApplication7 {
                 case 1:
                     settask_loop = true;
                     while (settask_loop) {
-                        System.out.print("What task do you wnat to add? : ");
+                        System.out.print("What task do you want to add? : ");
                         task = scn.nextLine();
                         setTarea(tasks, task, rows, row, id);
                         row++;
@@ -135,3 +135,4 @@ public class JavaApplication7 {
         }
     }
 }
+
